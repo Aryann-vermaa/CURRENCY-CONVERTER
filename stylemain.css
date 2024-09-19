@@ -1,0 +1,34 @@
+@font-face {
+    font-family: myfont3;
+    src: url(headfont.ttf);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 430px;
+    margin-right: 35%;
+}
+
+
+
+button{
+    height: 3rem;
+    width: 8rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    border: 2px solid lightgray;
+    font-family: myfont3;;
+              background: linear-gradient(145deg, #f1824b, #e36526);
+  box-shadow:  5px 5px 10px #aaaaaa,
+               -5px -5px 10px #ffffff;
+  
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
